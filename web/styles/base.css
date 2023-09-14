@@ -1,0 +1,22 @@
+body {
+  margin: 0; /* Espaçamento externo */
+  padding: 0; /* Espaçamento interno */
+
+  box-sizing: border-box;
+  background-color: #121214;
+  color: #fff;
+
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertical */
+  align-items: center; /* Horizontal */
+}
+
+body,
+button,
+input {
+  font-family: "Roboto", sans-serif;
+}
